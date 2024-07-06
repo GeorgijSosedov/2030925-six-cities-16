@@ -8,9 +8,9 @@ export default function PlacesList(): JSX.Element {
         <PlaceCard
           key={card.id}
           id={card.id}
-          isPremium={!!card.isPremium}
+          isPremium={card.isPremium}
           price={card.price}
-          isFavorite={!!card.isFavorite}
+          isFavorite={card.isFavorite}
           type={card.type}
           title={card.title}
         />))}
